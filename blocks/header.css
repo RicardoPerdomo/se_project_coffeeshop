@@ -50,11 +50,13 @@
 
 .header__paragraph {
   margin: 0;
-}
-
-.header__paragraphs {
-  display: flex;
-  justify-content: space-between;
+  font-family: "Inter", "arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  margin-top: auto;
 }
 
 .header__footer {
