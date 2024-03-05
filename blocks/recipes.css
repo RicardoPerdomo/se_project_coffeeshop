@@ -11,13 +11,18 @@
   display: flex;
   gap: 40px;
   justify-content: center;
-  padding: 80px 215px;
 }
 
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
   color: #ffffff;
+  font-family: "Inter", "arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 24px 0 0;
 }
 
 .recipes__title {
@@ -30,7 +35,7 @@
 }
 
 .recipes__subtitle {
-  font-family: "Noto serif";
+  font-family: "Noto serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   color: #ffffff;
@@ -41,7 +46,7 @@
 }
 
 .recipes__iframe {
-  width: 400px;
+  width: 480px;
   height: 273px;
   border: none;
 }
