@@ -52,6 +52,11 @@
   margin: 0;
 }
 
+.header__paragraphs {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header__footer {
   margin-top: auto;
   display: flex;
