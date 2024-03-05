@@ -9,9 +9,8 @@
 }
 
 .form__label {
-  margin-bottom: 32px;
+  margin: 0 0 8px;
   display: block;
-  margin-top: 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -36,6 +35,18 @@
   height: 60px;
   font-size: 20px;
   border-color: #838383;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.form__input::placeholder {
+  font-family: "Inter", "arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+  padding: 0 0 0 10px;
 }
 
 .form__button {

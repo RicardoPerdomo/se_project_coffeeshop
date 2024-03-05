@@ -61,4 +61,6 @@
   line-height: 20px;
   color: #838383;
   justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
 }
